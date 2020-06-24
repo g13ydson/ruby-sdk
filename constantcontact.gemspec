@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.require_paths = [ "lib" ]
   s.test_files = Dir['spec/**/*_spec.rb']
   
-  s.add_runtime_dependency("rest-client", '~> 2.0')
+  s.add_runtime_dependency("rest-client", '~> 1.8.0')
   s.add_runtime_dependency("json", '>= 1.8', '< 3.0')
   s.add_development_dependency("rspec", '~> 3.6')
 end
